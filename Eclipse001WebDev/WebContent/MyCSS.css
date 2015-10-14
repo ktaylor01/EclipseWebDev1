@@ -7,6 +7,10 @@ body {
 	background: #232323;
 }
 
+a {
+	color: #FFFFFF;
+}
+
 div {
 	height: 200px;
 	background-size: cover;
@@ -27,6 +31,18 @@ h2 {
 	text-align: center;
 	color: #bbbbbb;
 	margin: 0px 0 70px 0;
+}
+
+ul {
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#nav li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	margin: 0 50px 0 50px;
+	
 }
 
 p {
@@ -63,11 +79,11 @@ small {
 }
 
 .Experience {
-	background-image: url("http://i.imgur.com/4MVFUdT.jpg?1");
+	background-image: url("http://i.imgur.com/Kt1vltT.jpg");
 }
 
 .Education {
-	background-image: url("http://i.imgur.com/Kt1vltT.jpg");
+	background-image: url("http://i.imgur.com/4MVFUdT.jpg?1");
 }
 
 .References {
@@ -97,5 +113,9 @@ small {
 	}
 	small {
 		font-size: 16px;
+	}
+	li {
+		padding: 5px;
+		display: block;
 	}
 }

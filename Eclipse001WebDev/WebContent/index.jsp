@@ -12,9 +12,9 @@
 <script type="text/javascript" src="MyJavaScriptCode.js"></script>
 
 </head>
-<body>
-<ul id="nav">
-		<li><a href="SecondPage.html">Contact Me</a></li>
+<body class="page-one">
+	<ul id="nav">
+		<li><a href="SecondPage.jsp">Contact Me</a></li>
 		<li><a href="#">About me</a></li>
 		<li><a href="#">me me</a></li>
 	</ul>
@@ -22,7 +22,7 @@
 	<h1>Kelly Taylor</h1>
 	<h2>My Online Resume</h2>
 	<div class="Experience">
-	
+
 		<p>
 			WORK EXPERIENCE<span class="from"> 1991-present</span><br /> <small>This
 				section is where all my work experience will be presented </small>
@@ -42,7 +42,7 @@
 				area will be for a list of people who think I am fantastic :) </small>
 		</p>
 	</div>
-	
+
 	<script>
 		pVisibility()
 	</script>

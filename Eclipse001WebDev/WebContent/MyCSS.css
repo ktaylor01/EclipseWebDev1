@@ -1,17 +1,38 @@
 @CHARSET "UTF-8";
 
-body {
+.page-one{
 	font-family: helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 600px;
 	background: #232323;
 }
-
-a {
+.page-two {
+	font-family: helvetica, sans-serif;
+	margin: 0 auto;
+	max-width: 600px;
+	background: #232323;
+}
+.page-three{
+	background: #232323;
+	color: #aaaaaa;
+	
+}
+.page-one a {
 	color: #FFFFFF;
 }
+.page-two a {
+	color: #aaaaaa;
+}
 
-div {
+.page-three a{
+	color: white;
+	positon: relative;
+	float: right;
+	margin: 0 100px 0 0;
+}
+
+
+.page-one div {
 	height: 200px;
 	background-size: cover;
 	position: relative;
@@ -19,33 +40,35 @@ div {
 	border-radius: 12px;
 }
 
-h1 {
+.page-one h1 {
 	font-family: 'Londrina Shadow', cursive;
 	text-align: center;
 	font-size: 75px;
 	color: #aaaaaa;
 	margin: 60px 0 0 0;
 }
+.page-two h1 {
+	color: #aaaaaa;
+}
 
-h2 {
+.page-one h2 {
 	text-align: center;
 	color: #bbbbbb;
 	margin: 0px 0 70px 0;
 }
 
-ul {
+.page-one ul {
 	padding: 10px;
 	background: rgba(0, 0, 0, 0.5);
 }
 
-#nav li {
+.page-one #nav li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
 	margin: 0 50px 0 50px;
-	
 }
 
-p {
+.page-one p {
 	color: rgba(255, 255, 255, 1);
 	background: black;
 	background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
@@ -66,11 +89,11 @@ p {
 	-moz-transition: height .5s;
 }
 
-small {
+.page-one small {
 	opacity: 0;
 }
 
-.show-description p {
+.page-one .show-description p {
 	height: 150px;
 }
 
@@ -78,22 +101,24 @@ small {
 	opacity: 1;
 }
 
-.Experience {
+.page-one .Experience {
 	background-image: url("http://i.imgur.com/Kt1vltT.jpg");
 }
 
-.Education {
+.page-one .Education {
 	background-image: url("http://i.imgur.com/4MVFUdT.jpg?1");
 }
 
-.References {
+.page-one .References {
 	background-image: url("http://i.imgur.com/GrT1kYf.jpg");
 }
 
-.from {
+.page-one .from {
 	float: right;
 }
 
+.page-one
+ 
 @media ( max-width : 500px) {
 	h1 {
 		font-size: 50px;
@@ -119,3 +144,30 @@ small {
 		display: block;
 	}
 }
+
+/*===================================Style Sheet Page two======================================*/
+
+
+
+
+.page-two td{
+	color: #aaaaaa;
+	border: 0;
+	
+}
+/*=================================== Page-three table style ======================================*/
+
+.page-three table, td, th {
+    border: 1px solid green;
+}
+
+
+.page-three th {
+    background-color: green;
+    color: #bbbbbb;
+}
+
+
+
+
+
